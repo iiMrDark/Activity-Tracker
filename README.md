@@ -1,6 +1,5 @@
 # Activity Tracker
 
-## Description
 The **Activity Tracker** script is a Python-based monitoring tool designed to track user activity on a Windows machine. It records keyboard and mouse events, tracks active window titles, and calculates the time spent on different types of activities, such as coding, researching, and other miscellaneous applications. The results are saved in a log file for analysis and review.
 
 ---
@@ -34,24 +33,28 @@ The **Activity Tracker** script is a Python-based monitoring tool designed to tr
 ---
 
 ## Requirements
-
 - Python 3.7 or higher
 - Libraries:
   - `pynput`
   - `psutil`
   - `pywin32`
- 
-- NodeJS
-- 
+    
+- NodeJS (idk, use any shit)
 
-Install the dependencies with:
-```bash
-pip install pynput psutil pywin32
-```
 
 ## Installation
 
 1. **Clone the Repository**:  
    Clone the project to your local machine using the following command:
    ```bash
-   git clone https://github.com/your-username/activity-tracker.git
+   git clone https://github.com/iiMrDark/activity-tracker.git
+   cd Activity-Tracker
+   pip3 install pynput psutil pywin32
+   npm i
+   ```
+   
+## Last shit (Setup)
+  1. Press `Win + R`, type `shell:startup`, and move `start-bot.cmd` and `keylogger.py` to the Startup folder.
+  2. Don't forget to update the bot token in `index.js` and adjust the `index.js` file location in `start-bot.cmd`.
+
+
